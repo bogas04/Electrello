@@ -6,7 +6,7 @@ Inspired by sindresorhus, I decided to build a Trello app using Electron, coz wh
 Todo
 ==
 
-[x] Spend 10 minutes to get the thing started.
-[ ] Package the app for proper distribution.
-[ ] Add support for notifications.
-[ ] Add OS specific features.
+* [x] Spend 10 minutes to get the thing started.
+* [ ] Package the app for proper distribution.
+* [ ] Add support for notifications.
+* [ ] Add OS specific features.
