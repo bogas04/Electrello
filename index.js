@@ -11,7 +11,7 @@ app.on('window-all-closed', () => process.platform !== 'darwin' ? app.quit() : '
 
 app.on('ready', () => {
   mainWindow = new BrowserWindow({
-    'title': 'Trello',
+    'title': 'Electrello',
     'width': 1000, 
     'height': 700, 
     'node-integration': false
