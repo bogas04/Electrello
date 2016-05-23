@@ -1,13 +1,19 @@
 {
   "name": "electrello",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Multiplatform application for Trello",
   "main": "index.js",
   "scripts": {
     "start": "electron .",
-    "package-darwin" : "electron-packager . Electrello --platform=darwin --arch=all --version=0.33.4",
+    "package:darwin": "electron-packager . Electrello --platform=darwin --arch=all --version=0.33.4",
+    "package:win32": "electron-packager . Electrello --platform=win32 --arch=all --version=0.33.4",
+    "package:linux": "electron-packager . Electrello --platform=linux --arch=all --version=0.33.4",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "bogas04",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "electron-packager": "^7.0.2",
+    "electron-prebuilt": "^0.33.0"
+  }
 }
